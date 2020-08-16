@@ -1,4 +1,4 @@
-# CarMultimediaTasker
+# Car Multimedia Tasker
 Android/Tasker project to setup car multimedia when phone is connected. Effectively blocking auto play that most car multimedia system do by deffault, so you can decide when the music plays.
 
 Annoyed by your phone multimedia being automatically launched every time you get into your car and have bluetooth connected?
