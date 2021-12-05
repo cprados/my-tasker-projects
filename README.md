@@ -1,6 +1,6 @@
 # My Tasker Projects
 
-This repo is a compilation of tasker projects I have build for different personal needs I have found in my day to day. More info about tasker "ecosystem": https://tasker.joaoapps.com/ More info about each project on each folder. 
+This repo is a compilation of tasker projects I have built for different personal needs in my day to day. More info about tasker "ecosystem": https://tasker.joaoapps.com/. More info about each project in each folder:
 
 ## Find My Phone
 
