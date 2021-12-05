@@ -1,0 +1,191 @@
+<TaskerData sr="" dvi="1" tv="5.12.24-beta">
+	<Profile sr="prof13" ve="2">
+		<cdate>1598740169255</cdate>
+		<clp>true</clp>
+		<edate>1607356549513</edate>
+		<flags>8</flags>
+		<id>13</id>
+		<mid0>2</mid0>
+		<nme>Find my Phone Command</nme>
+		<Event sr="con0" ve="2">
+			<code>18927444</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Command>find my phone</Command>
+					<Command-type>java.lang.String</Command-type>
+					<CommandCaseInsensitive>true</CommandCaseInsensitive>
+					<CommandCaseInsensitive-type>java.lang.Boolean</CommandCaseInsensitive-type>
+					<CommandExact>true</CommandExact>
+					<CommandExact-type>java.lang.Boolean</CommandExact-type>
+					<CommandRegex>false</CommandRegex>
+					<CommandRegex-type>java.lang.Boolean</CommandRegex-type>
+					<VariableArray>false</VariableArray>
+					<VariableArray-type>java.lang.Boolean</VariableArray-type>
+					<VariableNames>&lt;null&gt;</VariableNames>
+					<VariableNames-type>java.lang.String</VariableNames-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command Filter: find my phone
+Case Insensitive: true
+Exact: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>1dcdb5b2-cb73-406c-8176-026ec0b40afa</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoappshub.intent.IntentCommand</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoappshub</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoappshub.activity.ActivityConfigCommand</Str>
+			<Int sr="arg3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof14" ve="2">
+		<cdate>1607274958717</cdate>
+		<clp>true</clp>
+		<edate>1607354059035</edate>
+		<flags>8</flags>
+		<id>14</id>
+		<mid0>3</mid0>
+		<nme>Screen On</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>On</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1637795583845</cdate>
+		<name>Find my Phone</name>
+		<pids>13,14</pids>
+		<tids>2,3</tids>
+		<Img sr="icon" ve="2">
+			<nme>hl_ab_action_search</nme>
+		</Img>
+	</Project>
+	<Task sr="task2">
+		<cdate>1607246371721</cdate>
+		<edate>1637797653508</edate>
+		<id>2</id>
+		<nme>Play Ringtone</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>1250249549</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Screen Off Or On: Turn Off</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"screenAction":"0","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>833ae816-91c8-46a1-8416-d2402c1de4d5</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentTurnOffScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigTurnOffScreen</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>312</code>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Bundle sr="arg6"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>313</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="12"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>192</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="2"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>511</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="6"/>
+			<Str sr="arg2" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>511</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1607246427379</cdate>
+		<edate>1637797656969</edate>
+		<id>3</id>
+		<nme>Stop Ringtone</nme>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">Play Ringtone</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>511</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
