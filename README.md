@@ -18,7 +18,7 @@ Intercept certain incomming WhatsApp notifications (that can be from certain con
 
 ## OK Google to Alexa bridge (for Android Auto)
 
-Invoke Alexa on your phone through "OK Google" voice commands. Anytime you say: "OK Google Alexa <<do something>>" it will launch Alexa app (through Google Home --> IFTTH -->  Join --> Tasker integration explained above) and repeat the same command <<do something>> to Alexa, so it can be processed. It unlocks the device if needed before running Alexa app. Can be used to invoke Alexa from Android Auto.
+Invoke Alexa on your phone through "OK Google" voice commands. Anytime you say: "OK Google Alexa do something" it will launch Alexa app (through Google Home --> IFTTH -->  Join --> Tasker integration explained above) and repeat the same command "do something" to Alexa, so it can be processed. It unlocks the device if needed before running Alexa app. Can be used to invoke Alexa from Android Auto.
 
 ## Read WhatsApp Voice Notes (for Android Auto)
 
